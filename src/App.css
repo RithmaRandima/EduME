@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #cdcdcd;
+}
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  line-height: 40px;
+  color: #1eb2a6;
+  transition: 0.5s;
+}
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+a {
+  text-decoration: none;
+}
+li {
+  letter-spacing: normal;
+  list-style: none;
+}
+
+button {
+  border: none;
+}
