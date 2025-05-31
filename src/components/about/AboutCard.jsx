@@ -1,7 +1,8 @@
 import React from "react";
-import "./AboutCard.css";
 import Title from "../common/Title/Title";
 import { homeAbout } from "../../assests/dummyData";
+import AWrapper from "./AWrapper";
+import "./About.css";
 
 const AboutCard = () => {
   return (
@@ -19,7 +20,7 @@ const AboutCard = () => {
             <div className="items">
               {homeAbout.map((val) => {
                 return (
-                  <div className="items flexSB">
+                  <div className="item flexSB">
                     <div className="img">
                       <img src={val.cover} alt={val.title} />
                     </div>
@@ -34,6 +35,7 @@ const AboutCard = () => {
           </div>
         </div>
       </section>
+      <AWrapper />
     </>
   );
 };
