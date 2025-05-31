@@ -1,0 +1,59 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.304), rgba(0, 0, 0, 0.235)),
+    url("../../../../public/images/hero-background.jpg");
+  background-size: cover;
+  background-attachment: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  padding-top: 20%;
+  padding-right: 50px;
+  color: #fff;
+}
+.hero #heading {
+  text-align: left;
+}
+
+@media screen and (max-width: 760px) {
+  .margin {
+    height: 40vh;
+  }
+  .hero {
+    background-position: left;
+    padding-top: 35%;
+    height: 100vh;
+  }
+  .hero .row {
+    width: 100%;
+  }
+  .hero #heading h3 {
+    font-size: 15px;
+  }
+  .hero #heading h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    margin-top: -30px;
+  }
+  .hero .button {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero button {
+    font-size: 12px;
+    padding: 17px 30px;
+    color: #1eb2a6;
+    margin: 20px;
+    width: 40%;
+    border-radius: 30px;
+  }
+  .hero .primary-btn {
+    color: #fff;
+    margin-bottom: 0;
+    width: 60%;
+  }
+}
