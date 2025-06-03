@@ -3,6 +3,8 @@ import { courseCard } from "../../assests/dummyData";
 import { FaStar } from "react-icons/fa";
 import Title from "../common/Title/Title";
 
+import OnlineCources from "../allcources/OnlineCources";
+
 const HAbout = () => {
   return (
     <>
@@ -61,6 +63,7 @@ const HAbout = () => {
           </div>
         </div>
       </section>
+      <OnlineCources />
     </>
   );
 };
