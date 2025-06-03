@@ -6,6 +6,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import CourcesHome from "./components/allcources/CourcesHome";
 import Team from "./components/team/Team";
+import Pricing from "./components/pricing/Pricing";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/cources" exact component={CourcesHome} />
           <Route path="/team" exact component={Team} />
+          <Route path="/pricing" exact component={Pricing} />
           {/* <Route path="/users">
             <Users />
           </Route>
