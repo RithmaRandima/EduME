@@ -8,6 +8,7 @@ import CourcesHome from "./components/allcources/CourcesHome";
 import Team from "./components/team/Team";
 import Pricing from "./components/pricing/Pricing";
 import Blog from "./components/blog/Blog";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/team" exact component={Team} />
           <Route path="/pricing" exact component={Pricing} />
           <Route path="/journal" exact component={Blog} />
+          <Route path="/contact" exact component={Contact} />
           {/* <Route path="/users">
             <Users />
           </Route>
