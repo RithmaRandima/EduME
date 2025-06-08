@@ -9,6 +9,7 @@ import Team from "./components/team/Team";
 import Pricing from "./components/pricing/Pricing";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/common/footer/Footer";
 
 function App() {
   return (
@@ -23,14 +24,8 @@ function App() {
           <Route path="/pricing" exact component={Pricing} />
           <Route path="/journal" exact component={Blog} />
           <Route path="/contact" exact component={Contact} />
-          {/* <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>{" "}
-          */}
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
